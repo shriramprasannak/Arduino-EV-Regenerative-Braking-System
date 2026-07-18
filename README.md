@@ -123,6 +123,14 @@ The complete schematic diagram is available here:
 
 ---
 
+## 🏗️ System Architecture
+
+The system architecture below illustrates the interaction between the accelerator, braking system, motor driver, battery monitoring logic, and output devices. The Arduino Uno continuously reads the accelerator and brake inputs, controls the DC motor using PWM, simulates regenerative braking, updates the battery percentage, and provides visual and audible feedback through LEDs and the buzzer.
+
+![System Architecture](System_Architecture.png)
+
+---
+
 ## 💻 Arduino Code
 
 The complete Arduino program is available here:
